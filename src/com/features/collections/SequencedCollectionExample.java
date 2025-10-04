@@ -3,7 +3,7 @@ package com.features.collections;
 import java.util.ArrayList;
 import java.util.SequencedCollection;
 
-public class SequencedSet {
+public class SequencedCollectionExample {
     void main() {
         SequencedCollection<String> names = new ArrayList<>();
 
