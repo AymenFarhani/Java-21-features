@@ -9,7 +9,7 @@ import com.features.virtualThreads.VirtualThreadFeatures;
 
 public class Java21FeaturesTest {
     static void main() {
-        InputProcessing.processInputOld("Yes");
+       /* InputProcessing.processInputOld("Yes");
         InputProcessing.processInputNew("No");
 
         System.out.println("--------------------------");
@@ -20,18 +20,18 @@ public class Java21FeaturesTest {
         System.out.println("--------------------------");
         Task task = new Task(Status.PENDING);
         RandomTask randomTask = new RandomTask(task);
-        TestRecordFeatures.getRandomTaskStatus(randomTask);
+        TestRecordFeatures.getRandomTaskStatus(randomTask);*/
 
         System.out.println("--------------------------");
         VirtualThreadFeatures.testVirtualThread();
 
 
-        UnnamedVariableAndPattern unnamedVariableAndPattern = new UnnamedVariableAndPattern();
+       /* UnnamedVariableAndPattern unnamedVariableAndPattern = new UnnamedVariableAndPattern();
         unnamedVariableAndPattern.testUnnamedVariable();
         unnamedVariableAndPattern.testUnnamedPattern();
 
         System.out.println("--------------------------");
         System.out.println(TestSwitchPattern.getBalanceWithoutSwitchPattern(new Account()));
-        System.out.println(TestSwitchPattern.getBalanceWithSwitchPattern(new Account()));
+        System.out.println(TestSwitchPattern.getBalanceWithSwitchPattern(new Account()));*/
     }
 }
